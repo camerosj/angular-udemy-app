@@ -11,11 +11,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { HeaderComponent } from './header/header.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule ],
-  declarations: [ AppComponent, HelloComponent, PostCreateComponent, HeaderComponent ],
+  declarations: [ AppComponent, HelloComponent, PostCreateComponent, HeaderComponent, PostListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
