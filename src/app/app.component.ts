@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent  {
-  storedposts=[];
+export class AppComponent {
+  storedPosts: Post[] = [];
 
   onPostAdded(post) {
-    this.storedposts.push(post);
+    this.storedPosts.push(post);
   }
 }
